@@ -5,8 +5,8 @@ const CardView = ({ listings }) => {
   return (
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 animate-fade-in">
       {listings.map((listing) => (
-        <Link to={`/listing/${listing.id}`}>
-          <div key={listing.id} className="bg-white rounded-lg p-4 shadow-lg">
+        <Link key={listing.id} to={`/listing/${listing.id}`}>
+          <div className="bg-white rounded-lg p-4 shadow-lg">
             <img
               src={listing.imageUrl}
               alt={listing.title}

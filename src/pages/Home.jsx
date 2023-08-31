@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import CardView from "../components/CardView";
 import DataTableView from "../components/DataTableView";
-import axios from "axios";
-// import { fetchListings } from '../data/mockApi';
 
 const Home = ({ listings }) => {
   const [isTableView, setIsTableView] = useState(false);

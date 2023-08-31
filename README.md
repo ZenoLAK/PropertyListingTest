@@ -34,22 +34,6 @@ You'll need to have the following software installed on your machine:
    npm install
    ```
 
-### Running JSON Server (Simulated Backend)
-
-1. Navigate to the `public` directory in the project:
-
-   ```sh
-   cd public
-   ```
-
-2. Start the JSON Server to serve the `data.json` file:
-
-   ```sh
-   npx json-server --watch data.json --port 3002
-   ```
-
-   The simulated API will be accessible at [http://localhost:3002](http://localhost:3002).
-
 ### Running the React App
 
 1. Open a new terminal window/tab.
